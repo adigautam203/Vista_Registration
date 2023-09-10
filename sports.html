@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+    
+*{
+  box-sizing: border-box;
+}
+body,html{
+  height: 100%;
+  margin: 0 auto;
+  padding: auto;
+
+}
+
+
+img.lg-jpg {
+  width: 150px;
+}
+.bg-image{
+  background-image: url(sports1.jpg);
+ height: 145%;
+ background-size:cover;
+ -webkit-backgroung-size: cover;
+background-repeat: no-repeat;
+background-position: center center;
+ filter: blur(3px);
+ background-attachment: fixed;
+}
+.bg-text{
+  position: absolute;
+
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-35%);
+  z-index: 5px;
+  padding: 40px 0;
+  width: 100%;
+  text-align: center;
+  border-top-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  background-color: (0,0,0.43);
+  
+  
+}
+
+.vst-hd {
+  text-align: center;
+}
+
+.coltn-of-btn {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 auto;
+  width: 50%;
+}
+
+.ft-cont-logo {
+  width: 100%;
+  margin: 0 auto;
+  padding: 20px;
+}
+a.Btn {
+  text-align: center;
+  border: solid;
+  margin: 7px;
+  padding: 13px;
+  border: 100% solid;
+  margin: 7px;
+  border-radius: 20px;
+  padding: 13px;
+  width: 90%;
+  font-weight: bold;
+  font-size: larger;
+  text-decoration: none;
+  color: aliceblue;
+  font-weight: bold;
+  font-size: 22px;
+  border-width: 3px;
+}
+a.Btn:hover{
+    background-color: aliceblue;
+    color: rgb(32,16,16);
+}
+
+img.insta-icn {
+  width: 75px;
+}
+.vst-hd {
+  color: beige;
+}
+h1 {
+  font-size: 40px;
+  text-decoration: underline;
+
+}
+
+@media only screen and (max-width: 767px) {
+
+  * {
+      box-sizing: border-box;
+  }
+  
+  body, html {
+      height: 100%;
+      margin: 0px auto;
+  }
+  
+  img.lg-jpg {
+      width: 132px;
+  }
+  
+  .bg-image {
+      background-image: url("sports.jpg");
+      height: 100%;
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center center;
+      filter: blur(0px);
+      background-attachment: fixed;
+  }
+  
+  .bg-text {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      padding: 40px 0px;
+      width: 100%;
+      text-align: center;
+      border-top-left-radius: 20px;
+      border-bottom-right-radius: 20px;
+  }
+  
+  .vst-hd {
+      text-align: center;
+      color: midnightblue;
+      
+  }
+  
+  .coltn-of-btn {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin: 0px auto;
+      width: 50%;
+  }
+  
+  .ft-cont-logo {
+      width: 100%;
+      margin: 0px auto;
+      padding: 20px;
+  }
+  
+  a.Btn {
+      text-align: center;
+      border: solid;
+      margin: 7px;
+      border-radius: 20px;
+      padding: 14px;
+      width: 121%;
+      font-weight: bold;
+      font-size: larger;
+      text-decoration: none;
+      color: midnightblue;
+      font-weight: bold;
+      font-size: 22px;
+      border-width: 3px;
+  }
+  a.Btn:hover{
+    background-color: aliceblue;
+    color: rgb(32,16,16);
+}
+  img.insta-icn {
+      width: 60px;
+  }
+  
+}
+</style>
+  </head>
+  
+  <body>
+    <div class="bg-image">
+
+    </div>
+    <div class="bg-text">
+      <header>
+        <div class="vst-hd">
+          <img class="lg-jpg" src="Vista.png" alt="vista logo" />
+          <h1>Sports Event's</h1>
+        </div>
+      </header>
+      <main>
+        <div class="coltn-of-btn">
+          <a href="https://forms.gle/52TXbT7F5gHhsmnL7" class="Btn">Box Cricket</a>
+          <a href="https://forms.gle/VTzesA6Gv5Dwst9k7" class="Btn"> Tug OF War</a>
+          <a href="https://forms.gle/PyhrT9oaARM7JrHJA" class="Btn">Carrom</a>
+          <a href="https://forms.gle/zBeo7n8KTnCCskMU7" class="Btn">Table Tennis</a>
+          <a href="https://forms.gle/DqUK2H4imiSK7B1q9" class="Btn">Arm Wrestling</a>
+
+        </div>
+      </main>
+      <footer>
+        <div class="ft-cont-logo">
+          <a href="https://instagram.com/timscdr.official?igshid=YmMyMTA2M2Y=" class="">
+            <img class="insta-icn" src="insta-icon.png" alt="Insta Icon"
+          /></a>
+          
+        </div>
+      </footer>
+    </div>
+  </body>
+</html>
